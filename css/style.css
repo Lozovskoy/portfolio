@@ -76,7 +76,7 @@ a {
   transition: 0.5s linear;
 }
 .button:hover {
-  background-color: yellowgreen;
+  background-color: yellow;
   color: black;
   transition: 0.5s linear;
 }
