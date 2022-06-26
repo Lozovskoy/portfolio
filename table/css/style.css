@@ -1,0 +1,52 @@
+.red {
+  margin-bottom: 10px;
+  background-color: lightcoral;
+  height: 105px;
+  width: 105px;
+  margin-right: 10px;
+}
+.purple {
+  height: 220px;
+  width: 220px;
+  background-color: rgb(148, 62, 165);
+  margin-bottom: 10px;
+  left: 120px;
+  margin-right: 10px;
+}
+.green {
+  background-color: lightgreen;
+  height: 50px;
+  width: 50px;
+  margin-right: 5px;
+}
+
+.first {
+  display: flex;
+}
+.second {
+  display: flex;
+}
+.gf {
+  display: flex;
+  margin-bottom: 5px;
+}
+.gs {
+  display: flex;
+  margin-bottom: 10px;
+}
+.home {
+  background-color: blueviolet;
+  width: 120px;
+  height: 40px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  border-style: none;
+  transition: 0.3s linear;
+}
+.home:hover {
+  color: darkblue;
+  background-color: blue;
+  transition: 0.3s linear;
+}

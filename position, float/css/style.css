@@ -1,0 +1,140 @@
+.logo {
+  margin-top: 2px;
+  margin-left: 120px;
+  position: absolute;
+}
+.main {
+  width: 100%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+body {
+  background-color: white;
+}
+.header {
+  background-color: rgb(54, 54, 54);
+  height: 29px;
+}
+.link {
+  text-decoration: none;
+  color: aliceblue;
+}
+.reg {
+  text-align: right;
+  margin-right: 120px;
+  padding-top: 5px;
+  font-family: sans-serif;
+}
+#rb {
+  border-right-width: 1px;
+  border-right-color: aliceblue;
+  border-style: solid;
+  border-top-width: 0px;
+  border-bottom-width: 0px;
+  border-left-width: 0px;
+  padding-right: 10px;
+}
+#lb {
+  padding-left: 5px;
+}
+#rb :hover {
+  background-color: rgb(65, 64, 64);
+}
+.forest {
+  position: absolute;
+  z-index: -1;
+}
+.banner {
+  width: 832px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+.left {
+  padding-top: 120px;
+  padding-left: 20px;
+}
+.right {
+  padding-left: 630px;
+}
+
+#I {
+  font-size: 22px;
+  padding-top: 40px;
+}
+.block {
+  width: 580px;
+  border-style: dotted;
+  border-top: 0px;
+  border-left: 0px;
+  border-right: 0px;
+  height: 250px;
+  margin-left: 27%;
+}
+.picture {
+  padding-top: 4%;
+  float: left;
+  position: absolute;
+}
+.text {
+  float: right;
+  padding-left: 24%;
+}
+#first {
+  padding-top: 6%;
+}
+.middle {
+  display: flex;
+  flex-direction: column;
+}
+.column {
+  margin-top: 9%;
+  margin-left: 62%;
+  width: 250px;
+  display: flex;
+  position: absolute;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+}
+.button {
+  background-color: rgb(56, 56, 56);
+  width: 250px;
+  text-align: center;
+  height: 10%;
+  color: aliceblue;
+  font-family: sans-serif;
+  padding-top: 4%;
+}
+.nav li {
+  border-style: solid;
+  border-top: 0px;
+  border-left: 0px;
+  border-right: 0px;
+  padding-top: 10px;
+  border-width: 1px;
+  list-style-type: none;
+  padding-bottom: 10px;
+  font-size: 72%;
+}
+.T {
+  border-bottom: 0px;
+}
+.button {
+  padding: 10px 10px 10px;
+}
+.home {
+  text-decoration: none;
+  background-color: blueviolet;
+  border-style: none;
+  color: black;
+  width: 120px;
+  height: 30px;
+  transition: 0.3s linear;
+}
+.home:hover {
+  background-color: blue;
+  color: aliceblue;
+  transition: 0.3s linear;
+}
