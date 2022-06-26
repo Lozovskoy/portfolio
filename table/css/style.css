@@ -33,3 +33,21 @@
 .gs {
   display: flex;
   margin-bottom: 10px;
+}
+.home {
+  width: 120px;
+  height: 30px;
+  border-style: none;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #739;
+  color: aliceblue;
+  margin-top: 30px;
+  transition: 0.3s linear;
+}
+.home:hover {
+  background-color: #922;
+  color: aliceblue;
+  transition: 0.3s linear;
+}

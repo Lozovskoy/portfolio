@@ -8,57 +8,60 @@
   </head>
   <body>
     <div class="form">
-    <div class="email">
-         Адресс электронной почты<br/>
+      <div class="email">
+        Адресс электронной почты<br />
         <input id="I" type="email" />
-       <div class="undertext"> Мы вышлем на него подтверждение заказа</div>
+        <div class="undertext">Мы вышлем на него подтверждение заказа</div>
+      </div>
+      <div class="name">
+        Имя<br />
+        <input id="I" type="text" />
+      </div>
+      <div class="sname">
+        Фамилия<br />
+        <input id="I" type="text" />
+      </div>
+      <div class="password">
+        Пароль<br />
+        <input id="I" type="password" />
+        <div class="undertext">
+          Пароль должен состоять как минимум из 6 символов и<br />
+          содержать хотя бы одну цифру
+        </div>
+      </div>
+      <div class="date">
+        Дата рождения <br />
+        <select class="tpx" form="I">
+          <option>День</option>
+          <option>1</option>
+          <option>11</option>
+          <option>15</option>
+          <option>30</option>
+        </select>
+        <select class="mpx" form="I">
+          <option>Месяц</option>
+          <option>Январь</option>
+          <option>Июль</option>
+          <option>Декабрь</option>
+          <option>Хотабыч?</option>
+        </select>
+        <select class="tpx" form="I">
+          <option>Год</option>
+          <option>1981</option>
+          <option>2021</option>
+          <option>1700._.</option>
+          <option>3000</option>
+        </select>
+        <div class="undertext">
+          Расскажите нам и получите подарочек на день рождения)
+        </div>
+        <div class="submit">
+          <input type="submit" value="Зарегестрироваться" />
+        </div>
+      </div>
     </div>
-    <div class="name">
-        Имя<br/>
-        <input id="I" type="text">
-    </div>
-    <div class="sname">
-        Фамилия<br/>
-        <input id="I" type="text">
-    </div>
-    <div class="password">
-        Пароль<br/>
-        <input id="I" type="password">
-        <div class="undertext">Пароль должен состоять как минимум из 6 символов и<br/> содержать хотя бы одну цифру</div>
-    </div>
-    <div class="date">
-        Дата рождения <br/>
-       <select class="tpx" form="I">
-        <option>День</option> 
-        <option>1</option>
-         <option>11</option>
-         <option>15</option>
-         <option>30</option>
-       </select>
-       <select class="mpx"  form="I">
-        <option>Месяц</option> 
-        <option>Январь</option>
-         <option>Июль</option>
-         <option>Декабрь</option>
-         <option>Хотабыч?</option>
-       </select>
-       <select class="tpx"  form="I">
-        <option>Год</option> 
-        <option>1981</option>
-         <option>2021</option>
-         <option>1700._.</option>
-         <option>3000</option>
-       </select>
-       <div class="undertext">
-         Расскажите нам и получите подарочек на день рождения)
-       </div>
-       <div class="submit">
-         <input  type="submit" value="Зарегестрироваться">
-       </div>
-
-
-    </div>
-  </div>
-    </div>
+    <button class="home" onclick="window.location.href='../index.html';">
+      На главную
+    </button>
   </body>
 </html>

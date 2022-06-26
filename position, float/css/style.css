@@ -40,8 +40,11 @@ body {
   z-index: -1;
 }
 .banner {
-  margin-left: 450px;
-  margin-top: 20px;
+  width: 832px;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 .left {
   padding-top: 120px;
@@ -94,10 +97,11 @@ body {
   background-color: rgb(56, 56, 56);
   width: 250px;
   text-align: center;
-  height: 10%;
   color: aliceblue;
   font-family: sans-serif;
-  padding-top: 4%;
+  margin-top: 4%;
+  height: 30px;
+  padding-top: 10px;
 }
 .nav li {
   border-style: solid;
@@ -112,4 +116,21 @@ body {
 }
 .T {
   border-bottom: 0px;
+}
+.home {
+  width: 120px;
+  height: 30px;
+  border-style: none;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #739;
+  color: aliceblue;
+  margin-top: 30px;
+  transition: 0.3s linear;
+}
+.home:hover {
+  background-color: #922;
+  color: aliceblue;
+  transition: 0.3s linear;
 }
