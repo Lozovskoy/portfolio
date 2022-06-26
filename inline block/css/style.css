@@ -1,0 +1,63 @@
+body {
+  background-image: url(bg.jpg);
+}
+.book {
+  left: 81%;
+  position: absolute;
+  padding-top: 0%;
+}
+.logo {
+  padding-top: 6%;
+  padding-left: 5%;
+  position: relative;
+}
+.blocks div {
+  display: inline-block;
+  height: 300px;
+  width: 300px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.blocks {
+  padding-top: 5%;
+  display: inline-block;
+  padding-left: 23%;
+  width: 1000px;
+}
+.springgreen {
+  background-color: springgreen;
+}
+.wheat {
+  background-color: wheat;
+}
+.violet {
+  background-color: violet;
+  color: white;
+}
+.pink {
+  background-color: pink;
+}
+.plum {
+  background-color: plum;
+  color: white;
+}
+.gold {
+  background-color: gold;
+}
+.darkorange {
+  background-color: darkorange;
+  color: white;
+}
+.darkorchid {
+  background-color: darkorchid;
+  color: white;
+}
+.forest {
+  background-image: url(forest.jpg);
+  color: white;
+}
+.footer {
+  color: aliceblue;
+  text-align: center;
+  padding-top: 2%;
+  padding-bottom: 2%;
+}

@@ -1,0 +1,44 @@
+body {
+  padding-left: 40%;
+  padding-top: 5%;
+}
+
+#I {
+  width: 400px;
+  padding-top: 15px;
+}
+.undertext {
+  margin-top: 10px;
+  opacity: 40%;
+}
+.sname {
+  padding-top: 40px;
+}
+.password {
+  padding-top: 40px;
+}
+.tpx {
+  padding: 12px 10px;
+  margin-top: 10px;
+  text-align: left;
+}
+.mpx {
+  padding: 12px 60px;
+  margin-left: 10px;
+  margin-right: 10px;
+  text-align: left;
+}
+.form div {
+  margin-top: 10px;
+}
+.submit input {
+  vertical-align: middle;
+  text-align: center;
+  margin-left: 100px;
+  width: 250px;
+  height: 45px;
+  background-color: black;
+  font-size: 25px;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}

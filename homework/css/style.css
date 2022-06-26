@@ -1,0 +1,108 @@
+.stars {
+  width: 100%;
+  height: auto;
+}
+.moon {
+  position: absolute;
+  padding-left: 50px;
+  padding-top: 50px;
+}
+html {
+  height: 100%;
+  background: url(gradient.gif);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.logo {
+  position: absolute;
+  left: 40%;
+  top: 35%;
+}
+.footer {
+  padding-bottom: 0px;
+  display: inline-block;
+  width: 100%;
+  height: auto;
+}
+#city {
+  width: 100%;
+  height: auto;
+}
+h1 {
+  font-size: 100;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  padding-left: 40%;
+  padding-top: 100px;
+}
+.purple {
+  padding-left: 10px;
+  padding-right: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 500px;
+  height: 60%;
+  background-color: #739;
+  border-left-width: 10px;
+  border-left-color: #529;
+  border-style: solid;
+  border-right-width: 0px;
+  border-top-width: 0px;
+  border-bottom-width: 0px;
+  transition: 1s linear;
+}
+.red {
+  margin-top: 0.5mm;
+  padding-left: 10px;
+  padding-right: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 500px;
+  height: 60%;
+  background-color: #922;
+  border-left-width: 10px;
+  border-left-color: #600;
+  border-style: solid;
+  border-right-width: 0px;
+  border-top-width: 0px;
+  border-bottom-width: 0px;
+  transition: 1s linear;
+}
+.text {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: white;
+}
+.question {
+  margin-top: -4%;
+  padding-left: 447px;
+  padding-top: 0%;
+}
+.second_purple {
+  background-color: purple;
+  width: 200px;
+  height: 100px;
+}
+.red:hover {
+  border-left-color: #529;
+  background-color: #739;
+  transition: 1s linear;
+}
+.purple:hover {
+  border-left-color: #600;
+  background-color: #922;
+  transition: 1s linear;
+}
+.moon:hover {
+  transform: rotate(-360deg);
+  transition: 1s linear;
+}
