@@ -86,10 +86,12 @@ a {
   border-bottom: 1px solid #777;
   font-size: 36px;
 }
+
 .collection-title small {
   color: #777;
   font-size: 70%;
 }
+
 .collection-item-outer {
   float: left;
   padding-left: 5px;
