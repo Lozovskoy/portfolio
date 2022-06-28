@@ -45,6 +45,7 @@ body {
   display: block;
   margin-left: auto;
   margin-right: auto;
+  margin-top: 2%;
 }
 .left {
   padding-top: 120px;
@@ -128,6 +129,7 @@ body {
   color: aliceblue;
   margin-top: 30px;
   transition: 0.3s linear;
+  margin-bottom: 1%;
 }
 .home:hover {
   background-color: #922;
